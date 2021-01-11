@@ -9,6 +9,7 @@ public class fruititem : MonoBehaviour {
 	private SpriteRenderer _spriteRenderer;
 	private CircleCollider2D _circleCollider2D;
 	
+	public int Score = 100;
 	
 	// Use this for initialization
 	void Start () {
@@ -32,6 +33,9 @@ public class fruititem : MonoBehaviour {
 			_circleCollider2D.enabled = false;
 			
 			collectedEffect.SetActive(true);
+			
+			gamecontroler.Instance.totalScore += Score;
+			gamecontroler.Instance.UpdateTotalScore();
 			
 			Destroy(gameObject , 0.7f);
 			

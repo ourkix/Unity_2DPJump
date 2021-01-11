@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\AudioManager.cs" />
      <Compile Include="Assets\FollowTarget.cs" />
+     <Compile Include="Assets\gamecontroler.cs" />
      <Compile Include="Assets\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\fruititem.cs" />
      <Compile Include="Assets\Scripts\PlayerBetterJump_n.cs" />
@@ -63,16 +64,16 @@
      <Compile Include="Assets\speed.cs" />
      <None Include="Assets\importPackages\Pixel Font - Tripfive\_README.txt" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>F:/OURKIX/unity项目文件/ninja run - 副本/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>F:/OURKIX/unity项目文件/1gitupload/Unity_2DPJump/ninja run - 副本/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>F:/OURKIX/unity项目文件/ninja run - 副本/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>F:/OURKIX/unity项目文件/1gitupload/Unity_2DPJump/ninja run - 副本/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>F:/OURKIX/unity项目文件/ninja run - 副本/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>F:/OURKIX/unity项目文件/1gitupload/Unity_2DPJump/ninja run - 副本/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>F:/OURKIX/unity项目文件/ninja run - 副本/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>F:/OURKIX/unity项目文件/1gitupload/Unity_2DPJump/ninja run - 副本/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>F:/ProgramFile/Unity_2018.2.6/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
