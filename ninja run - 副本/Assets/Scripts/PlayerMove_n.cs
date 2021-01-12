@@ -4,14 +4,22 @@ using UnityEngine;
 
 public class PlayerMove_n : MonoBehaviour {
 	
+	//private CharacterController Cc;
+	
 	public float speed = 5;
 	private Rigidbody2D _rigidbody2D;
 	private Animator _animator;
 	
+
 	private float x;
 	private float y;
 	
 	
+	void Awake()
+	{
+		//Cc = gameObject.GetComponent<CharacterController>();
+		
+	}
 	
 	// Use this for initialization
 	void Start () {
@@ -50,13 +58,26 @@ public class PlayerMove_n : MonoBehaviour {
 		Run();
 	}
 	
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		if(other.gameObject.tag == "Spike")
+		{
+			gamecontroler.Instance.showGamePanle();
+			//Destroy(gameObject);
+			
+			
+		}
+		
+		
+	}
+		
 	
 	private void Run()
 	{
 		Vector3 movement = new Vector3(x,y,0);
 		_rigidbody2D.transform.position += movement * speed * Time.deltaTime;
-		
-		
+		//fix player move in wall problem
+		//Cc.Move(movement * speed * Time.deltaTime);
 		
 	}
 	
