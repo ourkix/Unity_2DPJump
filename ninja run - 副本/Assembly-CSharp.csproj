@@ -56,8 +56,10 @@
      <Compile Include="Assets\AudioManager.cs" />
      <Compile Include="Assets\FollowTarget.cs" />
      <Compile Include="Assets\PlayerMove.cs" />
+     <Compile Include="Assets\Scripts\FallingPlatfrom.cs" />
      <Compile Include="Assets\Scripts\fruititem.cs" />
      <Compile Include="Assets\Scripts\gamecontroler.cs" />
+     <Compile Include="Assets\Scripts\JumpBox.cs" />
      <Compile Include="Assets\Scripts\PlayerBetterJump_n.cs" />
      <Compile Include="Assets\Scripts\PlayerJump_n.cs" />
      <Compile Include="Assets\Scripts\PlayerMove_n.cs" />
